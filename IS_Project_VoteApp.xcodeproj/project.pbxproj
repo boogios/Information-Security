@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C30B8312C09968B001D2B23 /* EncryptorWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C30B8302C09968B001D2B23 /* EncryptorWrapper.mm */; };
+		3C30B8332C09981C001D2B23 /* Encryptor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3C30B8322C09981C001D2B23 /* Encryptor.mm */; };
 		3CBC62A62C0981BB00B64F99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBC62A52C0981BB00B64F99 /* AppDelegate.swift */; };
 		3CBC62A82C0981BB00B64F99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBC62A72C0981BB00B64F99 /* SceneDelegate.swift */; };
 		3CBC62AF2C0981BD00B64F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CBC62AE2C0981BD00B64F99 /* Assets.xcassets */; };
@@ -14,9 +16,15 @@
 		3CBC62BA2C09821800B64F99 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBC62B92C09821800B64F99 /* MainViewController.swift */; };
 		3CBC62BC2C09822000B64F99 /* VoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBC62BB2C09822000B64F99 /* VoteViewController.swift */; };
 		3CBC62BE2C09822700B64F99 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBC62BD2C09822700B64F99 /* ResultViewController.swift */; };
+		3CE53BCD2C099DF100855DC7 /* HEAAN in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE53BCC2C099DF100855DC7 /* HEAAN */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C30B82E2C09964E001D2B23 /* EncryptorWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptorWrapper.h; sourceTree = "<group>"; };
+		3C30B82F2C09968B001D2B23 /* IS_Project_VoteApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IS_Project_VoteApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		3C30B8302C09968B001D2B23 /* EncryptorWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = EncryptorWrapper.mm; sourceTree = "<group>"; };
+		3C30B8322C09981C001D2B23 /* Encryptor.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Encryptor.mm; sourceTree = "<group>"; };
+		3C90D7422C09900700185F88 /* Encryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Encryptor.h; sourceTree = "<group>"; };
 		3CBC62A22C0981BB00B64F99 /* IS_Project_VoteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IS_Project_VoteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CBC62A52C0981BB00B64F99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CBC62A72C0981BB00B64F99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +34,7 @@
 		3CBC62B92C09821800B64F99 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3CBC62BB2C09822000B64F99 /* VoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteViewController.swift; sourceTree = "<group>"; };
 		3CBC62BD2C09822700B64F99 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		3CE53BCC2C099DF100855DC7 /* HEAAN */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HEAAN; path = IS_Project_VoteApp/HEAAN; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CE53BCD2C099DF100855DC7 /* HEAAN in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +54,7 @@
 			children = (
 				3CBC62A42C0981BB00B64F99 /* IS_Project_VoteApp */,
 				3CBC62A32C0981BB00B64F99 /* Products */,
+				3CE53BCB2C099DF100855DC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,8 +77,21 @@
 				3CBC62AE2C0981BD00B64F99 /* Assets.xcassets */,
 				3CBC62B02C0981BD00B64F99 /* LaunchScreen.storyboard */,
 				3CBC62B32C0981BE00B64F99 /* Info.plist */,
+				3C30B82E2C09964E001D2B23 /* EncryptorWrapper.h */,
+				3C30B8302C09968B001D2B23 /* EncryptorWrapper.mm */,
+				3C30B82F2C09968B001D2B23 /* IS_Project_VoteApp-Bridging-Header.h */,
+				3C90D7422C09900700185F88 /* Encryptor.h */,
+				3C30B8322C09981C001D2B23 /* Encryptor.mm */,
 			);
 			path = IS_Project_VoteApp;
+			sourceTree = "<group>";
+		};
+		3CE53BCB2C099DF100855DC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CE53BCC2C099DF100855DC7 /* HEAAN */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +126,7 @@
 				TargetAttributes = {
 					3CBC62A12C0981BB00B64F99 = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 					};
 				};
 			};
@@ -144,6 +169,8 @@
 				3CBC62BC2C09822000B64F99 /* VoteViewController.swift in Sources */,
 				3CBC62A82C0981BB00B64F99 /* SceneDelegate.swift in Sources */,
 				3CBC62BA2C09821800B64F99 /* MainViewController.swift in Sources */,
+				3C30B8312C09968B001D2B23 /* EncryptorWrapper.mm in Sources */,
+				3C30B8332C09981C001D2B23 /* Encryptor.mm in Sources */,
 				3CBC62BE2C09822700B64F99 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,19 +313,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MAZQ6JDBT4;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "\"/Users/byeonsang-u/Desktop/ITM/4학년/Information Security/IS_Project_VoteApp/IS_Project_VoteApp/IS_Project_VoteApp/HEAAN/src\"";
 				INFOPLIST_FILE = IS_Project_VoteApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.boogios.IS-Project-VoteApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -307,6 +338,8 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "IS_Project_VoteApp/IS_Project_VoteApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -317,19 +350,23 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MAZQ6JDBT4;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "\"/Users/byeonsang-u/Desktop/ITM/4학년/Information Security/IS_Project_VoteApp/IS_Project_VoteApp/IS_Project_VoteApp/HEAAN/src\"";
 				INFOPLIST_FILE = IS_Project_VoteApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = "";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.boogios.IS-Project-VoteApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -338,6 +375,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "IS_Project_VoteApp/IS_Project_VoteApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
