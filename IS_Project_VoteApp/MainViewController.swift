@@ -20,7 +20,7 @@ class MainViewController: UIViewController {
     }
 
     func setupUI() {
-        view.backgroundColor = .black
+        view.backgroundColor = .systemGray6
         
         nameTextField.placeholder = "Enter your name"
         ssnTextField.placeholder = "Enter your SSN"
@@ -50,9 +50,14 @@ class MainViewController: UIViewController {
             return
         }
         
+        // C++ Encryptor 클래스 사용하여 데이터 암호화
+        let encryptor = EncryptorWrapper()
+        let encryptedName = encryptor?.encrypt(name)
+        let encryptedSSN = encryptor?.encrypt(ssn)
+        
         let voteVC = VoteViewController()
-        voteVC.name = name
-        voteVC.ssn = ssn
+        voteVC.name = encryptedName
+        voteVC.ssn = encryptedSSN
         navigationController?.pushViewController(voteVC, animated: true)
     }
 }

@@ -24,7 +24,7 @@ class VoteViewController: UIViewController {
     }
     
     func setupUI() {
-        view.backgroundColor = .black
+        view.backgroundColor = .systemGray6
         
         let stackView = UIStackView()
         stackView.axis = .vertical

@@ -27,7 +27,7 @@ class ResultViewController: UIViewController {
     }
     
     func setupUI() {
-        view.backgroundColor = .black
+        view.backgroundColor = .systemGray6
         
         resultLabel.numberOfLines = 0
         view.addSubview(resultLabel)
